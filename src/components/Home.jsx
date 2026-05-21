@@ -31,20 +31,21 @@ function Home() {
               <button className="bg-pink-500 hover:bg-pink-600 px-6 py-3 rounded-xl font-semibold">
                 Hire Me
               </button>
+              {/* Right Side - Image */}
+        <div className="flex justify-center">
+
+          <img
+            src="/Images/student.jpg"
+            alt="Profile"
+            className="w-[300px] h-[300px] object-cover rounded-3xl border-4 border-green-500"
+          />
+
+        </div>
 
               <button className="border border-gray-500 hover:border-pink-400 hover:text-pink-400 px-6 py-3 rounded-xl font-semibold">
                 Download CV
               </button>
             </div>
-          </div>
-
-          {/* IMAGE */}
-          <div className="flex justify-center">
-            <img
-              src="/student.jpg"
-              alt="Profile"
-              className="w-[300px] md:w-[380px] rounded-3xl border-4 border-pink-500"
-            />
           </div>
 
         </div>
