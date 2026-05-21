@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import "tailwindcss";    
 
 /* App.css */
@@ -20,7 +19,7 @@
   --accent-cyan: #06b6d4;
 }
 
-/* സ്ക്രോൾ ചെയ്യുമ്പോൾ ഓരോ പേജിലും തനിയെ വന്നു നിൽക്കാൻ (Scroll Snapping) */
+/* Scroll Snapping */
 html {
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory; 
@@ -31,19 +30,19 @@ html {
   overflow-x: hidden;
 }
 
-/* 2. Layout Structure for Sections (ക്രിത്യമായി ഓരോ പേജ് പോലെ വരാൻ) */
+/* 2. Layout Structure for Sections */
 section {
-  height: 100vh;            /* ഓരോ സെക്ഷനും കറക്റ്റ് ഒരു ഫുൾ സ്ക്രീൻ എടുക്കും */
+  height: 100vh;            
   display: flex;
   flex-direction: column;
-  justify-content: center;  /* ഉള്ളടക്കം കൃത്യം നടുവിലായി വരാൻ */
+  justify-content: center;  
   align-items: center;
   padding: 40px 24px;
-  scroll-snap-align: start; /* സ്ക്രോൾ സ്നാപ്പിങ് കൃത്യമാക്കാൻ */
+  scroll-snap-align: start; 
   position: relative;
 }
 
-/* ഉള്ളിലുള്ള കണ്ടന്റിന് വേണ്ടി ഒരു ഗ്ലാസ്സ് ബോക്സ് */
+/* Glass box container */
 section > div:not(.container) {
   background: var(--glass-bg);
   backdrop-filter: blur(16px);
@@ -87,7 +86,6 @@ h2 {
   position: relative;
 }
 
-/* ഹെഡിംഗിന് താഴെയുള്ള ഭംഗിയുള്ള ലൈൻ */
 h2::after {
   content: '';
   display: block;
@@ -195,7 +193,7 @@ ul {
 /* Responsive adjustments for Tablets & Mobiles */
 @media (max-width: 768px) {
   html {
-    scroll-snap-type: none; /* മൊബൈലിൽ സ്മൂത്ത് ആയി സ്ക്രോൾ ചെയ്യാൻ ഇത് ഓഫ് ചെയ്യുന്നതാണ് നല്ലത് */
+    scroll-snap-type: none; 
   }
   section {
     height: auto;
@@ -209,6 +207,3 @@ ul {
     font-size: 2rem;
   }
 }
-=======
-@import "tailwindcss";
->>>>>>> a0bb38f (update ui)

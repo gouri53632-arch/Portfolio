@@ -1,18 +1,8 @@
-<<<<<<< HEAD
-=======
-// ============================
-// Home.jsx
-// ============================
-
->>>>>>> a0bb38f (update ui)
 import React from "react";
-
 function Home() {
   return (
-<<<<<<< HEAD
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-gray-900 to-black text-white px-6 py-10">
-      
-      {/* MAIN CONTAINER */}
+
       <div className="max-w-6xl mx-auto">
 
         {/* HERO SECTION */}
@@ -25,7 +15,7 @@ function Home() {
             </p>
 
             <h1 className="text-5xl md:text-6xl font-bold leading-tight">
-              Aleena
+              Gowrikrishna
             </h1>
 
             <h2 className="text-2xl md:text-3xl mt-4 text-gray-300">
@@ -33,93 +23,35 @@ function Home() {
             </h2>
 
             <p className="text-gray-400 mt-6 leading-7">
-              Passionate about building beautiful and responsive web
-              applications using React and modern web technologies.
-              I love creating clean UI designs and interactive user
-              experiences.
+              Computer Engineering student focused on React,
+              Tailwind CSS, and modern web design.
             </p>
 
-            {/* BUTTONS */}
             <div className="flex gap-4 mt-8">
-              <button className="bg-pink-500 hover:bg-pink-600 px-6 py-3 rounded-xl font-semibold transition duration-300">
+              <button className="bg-pink-500 hover:bg-pink-600 px-6 py-3 rounded-xl font-semibold">
                 Hire Me
               </button>
 
-              <button className="border border-gray-500 hover:border-pink-400 hover:text-pink-400 px-6 py-3 rounded-xl font-semibold transition duration-300">
+              <button className="border border-gray-500 hover:border-pink-400 hover:text-pink-400 px-6 py-3 rounded-xl font-semibold">
                 Download CV
               </button>
             </div>
           </div>
 
-          {/* RIGHT IMAGE */}
+          {/* IMAGE */}
           <div className="flex justify-center">
-            <div className="relative">
-              
-              {/* GLOW EFFECT */}
-              <div className="absolute inset-0 bg-pink-500 blur-3xl opacity-30 rounded-full"></div>
-
-              <img
-                src="/student.jpg"
-                alt="Profile"
-                className="relative w-[300px] md:w-[380px] rounded-3xl shadow-2xl border-4 border-pink-500 object-cover"
-              />
-            </div>
+            <img
+              src="/student.jpg"
+              alt="Profile"
+              className="w-[300px] md:w-[380px] rounded-3xl border-4 border-pink-500"
+            />
           </div>
-        </div>
 
-        {/* SKILLS SECTION */}
-        <div className="mt-24">
-          <h2 className="text-4xl font-bold text-center mb-12">
-            Skills
-          </h2>
-
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-
-            <div className="bg-gray-800 p-6 rounded-2xl text-center hover:bg-pink-500 transition duration-300">
-              <h3 className="text-xl font-semibold">HTML</h3>
-            </div>
-
-            <div className="bg-gray-800 p-6 rounded-2xl text-center hover:bg-pink-500 transition duration-300">
-              <h3 className="text-xl font-semibold">CSS</h3>
-            </div>
-
-            <div className="bg-gray-800 p-6 rounded-2xl text-center hover:bg-pink-500 transition duration-300">
-              <h3 className="text-xl font-semibold">JavaScript</h3>
-            </div>
-
-            <div className="bg-gray-800 p-6 rounded-2xl text-center hover:bg-pink-500 transition duration-300">
-              <h3 className="text-xl font-semibold">React</h3>
-            </div>
-
-          </div>
         </div>
 
       </div>
+
     </div>
-=======
-    <section id="home" className="min-h-screen bg-black text-white flex items-center px-6 md:px-20">
-      <div>
-        <p className="text-green-400 uppercase tracking-[0.3em] text-sm mb-5">
-          Frontend Developer
-        </p>
-
-        <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-          Hi, I'm <span className="text-green-400">Gowrikrishna</span>
-        </h1>
-
-        <p className="text-white text-lg mt-8 max-w-2xl leading-8">
-          Computer Engineering student focused on React,
-          Tailwind CSS, and modern web design.
-        </p>
-
-        
-
-         
-        </div>
-      
-    </section>
->>>>>>> a0bb38f (update ui)
   );
 }
-
 export default Home;

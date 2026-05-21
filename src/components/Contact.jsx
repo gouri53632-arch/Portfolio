@@ -1,21 +1,3 @@
-<<<<<<< HEAD
- import React from "react";
-
-function Contact(){
-    return(
-      <section>
-        <h2>Contact</h2>
-        <ul>
-          <li>Email: aleenabanil@gmail.com</li>
-          <li>Phone: +91 9876543210</li>
-        </ul>
-      </section>
-    )  
-=======
-// ============================
-// Contact.jsx
-// ============================
-
 import React from "react";
 
 function Contact() {
@@ -64,7 +46,6 @@ function Contact() {
 
     </section>
   );
->>>>>>> a0bb38f (update ui)
 }
 
 export default Contact;
