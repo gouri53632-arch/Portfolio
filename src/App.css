@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import "tailwindcss";    
 
 /* App.css */
@@ -208,3 +209,6 @@ ul {
     font-size: 2rem;
   }
 }
+=======
+@import "tailwindcss";
+>>>>>>> a0bb38f (update ui)

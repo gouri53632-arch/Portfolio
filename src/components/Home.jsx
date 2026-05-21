@@ -1,7 +1,15 @@
+<<<<<<< HEAD
+=======
+// ============================
+// Home.jsx
+// ============================
+
+>>>>>>> a0bb38f (update ui)
 import React from "react";
 
 function Home() {
   return (
+<<<<<<< HEAD
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-gray-900 to-black text-white px-6 py-10">
       
       {/* MAIN CONTAINER */}
@@ -88,6 +96,29 @@ function Home() {
 
       </div>
     </div>
+=======
+    <section id="home" className="min-h-screen bg-black text-white flex items-center px-6 md:px-20">
+      <div>
+        <p className="text-green-400 uppercase tracking-[0.3em] text-sm mb-5">
+          Frontend Developer
+        </p>
+
+        <h1 className="text-5xl md:text-7xl font-bold leading-tight">
+          Hi, I'm <span className="text-green-400">Gowrikrishna</span>
+        </h1>
+
+        <p className="text-white text-lg mt-8 max-w-2xl leading-8">
+          Computer Engineering student focused on React,
+          Tailwind CSS, and modern web design.
+        </p>
+
+        
+
+         
+        </div>
+      
+    </section>
+>>>>>>> a0bb38f (update ui)
   );
 }
 
