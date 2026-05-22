@@ -1,58 +1,58 @@
 import React from "react";
+
+
 function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-gray-900 to-black text-white px-6 py-10">
+    <section className="min-h-screen bg-[#0F172A] text-white flex items-center justify-center px-6">
 
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-5xl w-full grid md:grid-cols-2 gap-10 items-center">
 
-        {/* HERO SECTION */}
-        <div className="grid md:grid-cols-2 gap-10 items-center">
+        {/* Left Side */}
+        <div>
+          <p className="text-cyan-400 uppercase text-sm tracking-widest mb-4">
+            Welcome To My Portfolio
+          </p>
 
-          {/* LEFT CONTENT */}
-          <div>
-            <p className="text-pink-400 text-lg mb-2">
-              Hello, I'm
-            </p>
-
-            <h1 className="text-5xl md:text-6xl font-bold leading-tight">
+          <h1 className="text-4xl md:text-6xl font-bold leading-tight">
+            Hi, I'm{" "}
+            <span className="text-cyan-400">
               Gowrikrishna
-            </h1>
+            </span>
+          </h1>
 
-            <h2 className="text-2xl md:text-3xl mt-4 text-gray-300">
-              Web Developer & Student
-            </h2>
+          <h2 className="text-xl md:text-2xl text-gray-300 mt-4">
+            Web Developer & Computer Engineering Student
+          </h2>
 
-            <p className="text-gray-400 mt-6 leading-7">
-              Computer Engineering student focused on React,
-              Tailwind CSS, and modern web design.
-            </p>
+          <p className="text-gray-400 mt-6 leading-7">
+            I create responsive and modern websites using
+            React and Tailwind CSS.
+          </p>
 
-            <div className="flex gap-4 mt-8">
-              <button className="bg-pink-500 hover:bg-pink-600 px-6 py-3 rounded-xl font-semibold">
-                Hire Me
-              </button>
-              {/* Right Side - Image */}
-        <div className="flex justify-center">
-
-          <img
-            src="/Images/student.jpg"
-            alt="Profile"
-            className="w-[300px] h-[300px] object-cover rounded-3xl border-4 border-green-500"
-          />
-
+          <button className="mt-8 bg-cyan-400 text-black px-6 py-3 rounded-lg font-semibold hover:bg-cyan-300 transition">
+            Contact Me
+          </button>
         </div>
 
-              <button className="border border-gray-500 hover:border-pink-400 hover:text-pink-400 px-6 py-3 rounded-xl font-semibold">
-                Download CV
-              </button>
-            </div>
+        {/* Right Side */}
+        <div className="flex justify-center">
+
+          <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-cyan-400 shadow-lg">
+
+            <img
+              src={profile}
+              alt="Profile"
+              className="w-full h-full object-cover"
+            />
+
           </div>
 
         </div>
 
       </div>
 
-    </div>
+    </section>
   );
 }
+
 export default Home;
